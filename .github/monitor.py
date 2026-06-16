@@ -17,12 +17,11 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 SERVICES: dict[str, str] = {
-    "Build service": "https://builds.flathub.org",
-    "Main repository server": "https://hub.flathub.org/status",
-    "Website": "https://flathub.org",
-    "API": "https://flathub.org/api/v2/status",
-    "Discourse": "https://discourse.flathub.org/about.json",
-    "CDN": "https://dl.flathub.org/repo/logo.svg",
+    "Build service": "https://build.openpak.org",
+    "Main repository server": "https://hub.openpak.org/status",
+    "Website": "https://openpak.org",
+    "API": "https://openpak.org/api/v2/status",
+    "CDN": "https://dl.openpak.org/repo/logo.svg",
 }
 
 GITHUB_STATUS_URL = "https://www.githubstatus.com/api/v2/status.json"

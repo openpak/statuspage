@@ -1,9 +1,9 @@
-title: Flathub Status
+title: Openpak Status
 
 buildFuture: true
 languageCode: en
 defaultContentLanguage: en
-baseURL: https://status.flathub.org
+baseURL: https://status.openpak.org
 enableGitInfo: true
 
 params:
@@ -13,27 +13,24 @@ params:
 
   systems:
     - name: Website
-      description: The main website.
+      description: The main website (openpak.org).
       category: main
     - name: API
-      description: The backend service powering websites.
-      category: main
-    - name: Discourse
-      description: Community forums.
+      description: The backend service powering the website.
       category: main
     - name: CDN
-      description: Content delivery network
+      description: Content delivery network (dl.openpak.org).
       category: main
     - name: Build service
-      description: Build service
+      description: Build service (build.openpak.org).
       category: main
     - name: Main repository server
-      description: The main server managing uploads and acting as the backend to CDN.
+      description: The main server managing uploads and acting as the backend to CDN (hub.openpak.org).
       category: main
 
   customTabs:
-    - name: Matrix channel
-      link: https://matrix.to/#/#flathub:matrix.org
+    - name: Website
+      link: https://openpak.org
 
   dateFormat: January 2, 2006 at 15:04 UTC
   shortDateFormat: 15:04 UTC — Jan 2
