@@ -1,4 +1,4 @@
-# Flathub statuspage
+# Openpak statuspage
 
 ## Development
 

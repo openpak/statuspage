@@ -71,7 +71,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL https://status.flathub.org
+            --baseURL https://status.openpak.org
 
       - name: Upload artifact
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'

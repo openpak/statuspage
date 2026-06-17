@@ -24,6 +24,6 @@ Any builds that were affected during the outage have been restarted.
 - If a pull request test build is still failing, maintainers can
   restart it by commenting `bot, build` on the pull request.
 - If an official build from a merged pull request is broken, please
-  open an [issue](https://github.com/flathub/flathub/issues).
+  open an [issue](https://github.com/openpak/openpak/issues).
 
 {{< track "2026-05-24 14:27:00" >}}
